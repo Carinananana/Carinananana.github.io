@@ -28,7 +28,7 @@ html, body {overflow: hidden;}
       border-radius: 100%;
       background: #fff;
       box-shadow: 0 0 10px 5px rgba(255,255,255, .8);
-      margin: 45px 4%;      
+      margin: 45px 4%;
 }
 .packman {
      animation: comecocos 10s infinite linear;
@@ -76,7 +76,7 @@ html, body {overflow: hidden;}
     top: -60px;
     width: 1px;
     z-index: -1;
-    animation: boca .95s infinite linear; 
+    animation: boca .95s infinite linear;
  }
 
 .tras-come {
@@ -88,8 +88,8 @@ html, body {overflow: hidden;}
     top: 60px;
     opacity: 1;
      animation: tras-come 10s infinite linear;
-    
-}  
+
+}
 
 .fantasmas {
     left: 0;
@@ -98,7 +98,7 @@ html, body {overflow: hidden;}
     width: 100%;
     z-index: 1;
      animation: fantasmas 10s infinite linear;
-}              
+}
 .fantasma {
     border-radius: 50% 50% 0 0;
     height: 80px;
@@ -115,7 +115,7 @@ html, body {overflow: hidden;}
      bottom: 0;
      border-bottom:20px solid black;
      border-left:10px solid transparent;
-     border-right:10px solid transparent; 
+     border-right:10px solid transparent;
     animation: patitas .5s infinite linear;
 }
 .fantasma:before {left: 5px;}
@@ -143,37 +143,37 @@ html, body {overflow: hidden;}
     content: "";
     height: 10px;
     position: absolute;
-    width: 10px; 
+    width: 10px;
 }
  /***************keyframes******************/
-@keyframes comecocos { 
+@keyframes comecocos {
     0% { left: -20%;}
     50% { left: 50%;}
     100% { left: 100%;}
        }
-@keyframes fantasmas { 
+@keyframes fantasmas {
     0% { left: -10%;}
     50% { left: 50%;}
     100% { left: 100%;}
        }
-@keyframes patitas { 
+@keyframes patitas {
     0% {border-left:5px solid transparent; border-right:5px solid transparent;}
     25% {border-left:10px solid transparent; border-right:10px solid transparent;}
     50% {border-left:15px solid  transparent; border-right:15px solid transparent;}
     75% {border-left:10px solid transparent; border-right:10px solid transparent;}
     100% {border-left:5px solid  transparent; border-right:5px solid transparent;}
        }
-@keyframes tras-come { 
+@keyframes tras-come {
     0% { left: -10%; width:0%;}
     100% { left: 0%; width:100%}
        }
-@keyframes boca { 
+@keyframes boca {
     0%  { transform: rotate(0deg); }
     10% { transform: rotate(-18deg); }
     20% { transform: rotate(-36deg); }
     30% { transform: rotate(-54deg); }
     40% { transform: rotate(-72deg); }
-    50% { transform: rotate(-90deg); } 
+    50% { transform: rotate(-90deg); }
     60% { transform: rotate(-72deg); }
     70% { transform: rotate(-54deg); }
     80% { transform: rotate(-36deg); }
